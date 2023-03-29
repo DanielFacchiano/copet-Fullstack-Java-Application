@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copet Home Page</title>
+    <link rel="stylesheet" href="./css/soloPetStyle.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Javascript/soloPetScript.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="innerHeader">
+        <div class="logoHolder">
+          <img src="./images/CoPetLogoSmall.png" />
+        </div>
+        <div class="accountButtons">
+          <div class="accountButtonContainer">
+            <a href="./accountInfo.html" class="accountButton btn"
+              >My account</a
+            >
+          </div>
+          <div class="logoutButtonContainer">
+            <button class="btn">Logout</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="innerNav">
+        <div class="petButtonContainer">
+          <a href="./pets.html" class="petButton btn">Pets</a>
+        </div>
+
+        <div class="shelterButtonContainer">
+          <a href="./shelters.html" class="shelterButton btn">Shelters</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="backContainer">
+      <div class="backButtons">
+        <a href="./pets.html" class="backButtons btn">Back</a>
+      </div>
+    </div>
+
+    <section class="petInfoContainer">
+      <div class="innerInfoCon">
+        <div>
+          <p class="petNameText">Pet Name</p>
+          <div class="petDetailsContainer">
+            <p class="locationText">Location:</p>
+            <p class="speciesText">Species:</p>
+            <p class="breedText">Breeds:</p>
+            <p class="descriptionText">Description:</p>
+            <p class="reservedText">Status:</p>
+          </div>
+        </div>
+        <div class="adminButtons">
+          <div class="updateButtonContainer">
+            <a href="" id="updateBtn" class="updateBtn btn">Update</a>
+          </div>
+          <div class="deleteButtonContainer">
+            <button id="deleteBtn" class="deleteBtn btn">Delete</button>
+          </div>
+        </div>
+
+        <div class="soloButtonsContainer">
+          <div class="adoptButtonContainer">
+            <button id="adoptButton" class="btn">Adopt</button>
+          </div>
+        </div>
+        <div class="imageHolder">
+          <img
+            class="mainImage"
+            src="./images/pet1.jpg"
+            width="300 px"
+            alt="Wow look at those cute pets"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

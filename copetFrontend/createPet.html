@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Pet Page</title>
+    <link rel="stylesheet" href="./css/./createPetStyle.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="innerHeader">
+        <div class="logoHolder">
+          <img src="./images/CoPetLogoSmall.png" />
+        </div>
+        <div class="accountButtons">
+          <div class="accountButtonContainer">
+            <a href="./accountInfo.html" class="accountButton btn"
+              >My account</a
+            >
+          </div>
+          <div class="logoutButtonContainer">
+            <button class="btn">Logout</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="innerNav">
+        <div class="petButton">
+          <a href="./pets.html" class="petButton btn">Pets</a>
+        </div>
+        <div class="shelterButton">
+          <a href="./shelters.html" class="shelterButton btn">Shelters</a>
+        </div>
+      </div>
+    </nav>
+    <div class="createPetContainer">
+      <div class="createPetForm">
+        <p id="errorMessage"></p>
+        <h3>Create a pet</h3>
+        <div class="petNameInputContainer inputContainer">
+          <label for="petName" class="left">Pet Name:</label>
+          <input
+            type="text"
+            id="petName"
+            name="petName"
+            class="right"
+            placeholder="Pet Name"
+          />
+        </div>
+        <div class="petNameSpeciesInputContainer inputContainer">
+          <label for="species" class="left">Species: </label>
+          <input
+            type="text"
+            id="species"
+            name="species"
+            class="right"
+            placeholder="Species"
+          />
+        </div>
+        <div class="petNameDescriptionContainer inputContainer">
+          <label for="description" class="left">Description: </label>
+          <input
+            type="text"
+            id="description"
+            name="description"
+            class="right"
+            placeholder="Brief description of pet"
+          />
+        </div>
+        <div class="petAgeContainer inputContainer">
+          <label for="age" class="left">Age: </label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            class="right"
+            placeholder="Age"
+          />
+        </div>
+        <div class="shelterIdContainer inputContainer">
+          <label class="left" for="shelterId">Shelter Id: </label>
+          <input
+            type="number"
+            id="shelterId"
+            name="shelterId"
+            class="right"
+            placeholder="shelterId"
+          />
+        </div>
+        <p>Select Breeds</p>
+
+        <div class="checkBoxesContainer">
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="1" name="breedBox" value="1" />
+            <label for="1">Labrador Retriever</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="2" name="breedBox" value="2" />
+            <label for="2">German Shepherd</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="3" name="breedBox" value="3" />
+            <label for="3">Golden Retriever</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="4" name="breedBox" value="4" />
+            <label for="4">French Bulldog</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="5" name="breedBox" value="5" />
+            <label for="5">Beagle</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="6" name="breedBox" value="6" />
+            <label for="6">Poodle</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="7" name="breedBox" value="7" />
+            <label for="7">Boxer</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="8" name="breedBox" value="8" />
+            <label for="8">Bulldog</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="9" name="breedBox" value="9" />
+            <label for="9">Siberian Husky</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="10" name="breedBox" value="10" />
+            <label for="10">Chihuahua</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="11" name="breedBox" value="11" />
+            <label for="11">Siamese</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="12" name="breedBox" value="12" />
+            <label for="12">Persian</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="13" name="breedBox" value="13" />
+            <label for="13">Bengal</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="14" name="breedBox" value="14" />
+            <label for="14">Sphynx</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="15" name="breedBox" value="15" />
+            <label for="15">Maine Coon</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="16" name="breedBox" value="16" />
+            <label for="16">Scottish Fold</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="17" name="breedBox" value="17" />
+            <label for="17">American Shorthair</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="18" name="breedBox" value="18" />
+            <label for="18">Ragdoll</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="19" name="breedBox" value="19" />
+            <label for="19">British Shorthair</label>
+          </div>
+          <div class="checkBoxContainer">
+            <input type="checkbox" id="20" name="breedBox" value="20" />
+            <label for="20">Russian Blue</label>
+          </div>
+        </div>
+        <button id="createPetButton" class="createPetButton btn">
+          Add Pet
+        </button>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./Javascript/createPetScript.js"
+    ></script>
+  </body>
+</html>

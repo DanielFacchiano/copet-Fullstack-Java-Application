@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  height: 100vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 2fr 1.3fr 5fr 4fr;
+}
+
+.header {
+  grid-column: 1/-1;
+  background-color: rgb(248, 248, 225);
+    grid-row: 1/2;
+    color: beige;
+    text-align: center;
+}
+.innerHeader {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(248, 248, 225);
+  width: 100%;
+  height: 100%;
+}
+
+
+.nav {
+  grid-column: 2/-1;
+   grid-row: 2/3;
+   color: beige;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.innerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.navButton {
+  background-color: beige;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d56f3eff;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.12);
+}
+.btn:hover {
+  background-color: rgb(182, 94, 54);
+}
+
+.accountButtons {
+  padding-top: 2rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.myAccountContainer {
+
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  justify-content: right;
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d56f3eff;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+.logoHolder{
+
+  background-color: rgb(248, 248, 225);
+  letter-spacing: 0.3rem;
+  padding: 1.4rem 4rem;
+}
+
+
+
+.backContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  justify-content: right;
+}
+
+.backButtons {
+  padding-top: 1rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.petInfoContainer {
+      grid-column: 1/-1;
+      grid-row: 3/-1;
+      background-color: white;
+      color: black;
+      text-align: left;
+      display: flex;
+      justify-content: center;
+
+}
+
+.innerInfoCon {
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 4fr 1fr;
+      padding-top: 2.5rem;
+      padding-left: 4rem;
+      gap: 6rem;
+      align-items: left;
+      justify-contents: left;
+      width: 70%;
+      height: 98%;
+      border: 1px solid black;
+      border-radius: 4px;
+
+
+}
+.petDetailsContainer{
+padding-top: 10rem;
+display:flex;
+flex-direction:column;
+
+padding-left: 5rem;
+gap:3rem;
+font-size: 1.8rem;
+
+}
+
+
+
+.soloButtonsContainer{
+
+display:flex;
+
+padding-top: 2rem;
+gap:3rem;
+padding-left: 4
+
+
+}
+
+.adminButtons{
+display:flex;
+gap: 3rem;
+padding-top: 1rem;
+
+}
+
+
+.imageHolder {
+
+
+  display: flex;
+  align-items: center;
+  grid-column: 2/-1;
+  grid-row: 1/2;
+  justify-content: center;
+
+
+
+}
+
+
+
+.btn:hover {
+  background-color: rgb(182, 94, 54);
+}
+
+
+select {
+  background-color: #d56f3eff;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.12);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border-radius: 2px;
+}

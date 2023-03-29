@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  height: 100vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 2fr 1.3fr 5fr 4fr;
+}
+
+.innerHeader {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  background-color: rgb(248, 248, 225);
+  color: beige;
+  text-align: center;
+}
+.logoHolder {
+  align-self: center;
+}
+.accountButtons {
+  padding-top: 2rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.nav {
+  grid-column: 2/-1;
+  grid-row: 2/3;
+  color: beige;
+  text-align: center;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+.innerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.navButton {
+  background-color: beige;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d56f3eff;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.12);
+}
+.btn:hover {
+  background-color: rgb(182, 94, 54);
+}
+select {
+  background-color: #d56f3eff;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.12);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  border-radius: 2px;
+}
+
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 3/-1;
+  color: beige;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.imageHolder {
+  grid-column: 2/-1;
+  grid-row: 3/4;
+  color: red;
+  text-align: center;
+}
+.innerImageHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.innerSidebar {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 98%;
+  gap: 5rem;
+  color: black;
+  justify-content: flex-start;
+  border: 1px solid black;
+}
+
+.about {
+  grid-column: 2/-1;
+  grid-row: 4/-1;
+  color: beige;
+  text-align: center;
+}
+
+.innerAbout {
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 98%;
+  gap: 5rem;
+  justify-content: flex-start;
+  border: 1px solid black;
+  color: black;
+}
+
+.logoHolder {
+  align-self: center;
+}
+.mainImage {
+  width: 60%;
+}

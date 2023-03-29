@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS wolvesdb;
+CREATE DATABASE wolvesdb;
+USE wolvesdb;
